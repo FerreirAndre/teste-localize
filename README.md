@@ -72,8 +72,8 @@ CnpjControl.Api          --> Camada de apresentação (Web API)
 
 ## 📦 Endpoints principais
 
-- `POST /api/auth/register` - Registro de novo usuário
-- `POST /api/auth/login` - Autenticação e retorno do token JWT
+- `POST /api/Auth/register` - Registro de novo usuário
+- `POST /api/Auth/login` - Autenticação e retorno do token JWT
 - `GET /api/company` - Listagem de empresas do usuário autenticado
 - `POST /api/company` - Cadastro de nova empresa via CNPJ (body: string JSON)
 
